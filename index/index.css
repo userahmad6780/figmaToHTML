@@ -1,0 +1,121 @@
+.care-feature-subHeading,
+.key-feature-subHeading{
+    font-size: 10px;
+    font-weight: 500;
+    opacity: 33%;
+}
+
+.careFeature-item-container{
+    padding: 20px;
+    background: #F5F6F9;
+    margin-bottom: 4px;
+}
+
+.careFeature-font{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.careFeature-item-container:hover{
+    border-left: 5px solid #5F77FF;
+    cursor: pointer;
+
+    .pre-icon{
+        filter: invert(56%) sepia(93%) saturate(4284%) hue-rotate(215deg) brightness(101%) contrast(101%);
+    }
+    .post-icon{
+        filter: invert(56%) sepia(93%) saturate(4284%) hue-rotate(215deg) brightness(101%) contrast(101%);
+    }
+    .dark-font{
+        color: #5F77FF;
+    }
+}
+
+.keyFeature-item-container:hover{
+    cursor: pointer;
+
+    .pre-icon{
+        filter: invert(56%) sepia(93%) saturate(4284%) hue-rotate(215deg) brightness(101%) contrast(101%);
+    }
+
+    .dark-font{
+        opacity: 100% !important;
+    }
+}
+
+.keyFeature-item-container{
+    padding: 10px;
+}
+
+.key-feature{
+    width: 100%;
+}
+
+.keyFeature-font{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.stores-image-wrapper{
+    width: 100px;
+}
+
+/* media queries */
+
+@media (min-width: 768px) {
+    .extensive-care-image-wrapper{
+        width: 800px;
+    }
+    .keyFeature-image-wrapper{
+        width: 300px;
+    }
+    .health-care-image-wrapper{
+        width: 500px;
+    }
+    .key-feature{
+        width: 40%;
+    }
+}
+
+@media (min-width: 992px) {
+    .keyFeature-image-wrapper{
+        width: 400px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .wellness-section-img-wrapper{
+        width: 1200px;
+    }
+    .extensive-care-image-wrapper{
+        width: 800px;
+    }
+    .keyFeature-image-wrapper{
+        width: 300px;
+    }
+    .key-feature{
+        width: 40%;
+    }
+    .care-feature-subHeading, .key-feature-subHeading {
+        font-size: 14px;
+    }
+    .careFeature-font {
+        font-size: 24px;
+    }
+    .extensive-care-image-wrapper{
+        width: 1000px;
+    }
+    .keyFeature-image-wrapper{
+        width: 500px;
+    }
+    .keyFeature-font {
+        font-size: 20px;
+    }
+    .health-care-image-wrapper{
+        width: 530px;
+    }
+    .stores-image-wrapper {
+        width: 140px;
+        margin-right: 10px;
+    }
+}

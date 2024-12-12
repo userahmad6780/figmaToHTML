@@ -1,0 +1,149 @@
+.extensiveCare-font{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.extensiveCare-item-container{
+    width: 45%;
+    padding: 12px;
+    background-color: #F5F6F9;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.extensiveCare-item-container:hover{
+    background-color: #5F77FF;
+
+    .dark-font{
+        color: #F5F6F9;
+    }
+}
+
+.extensive-preIcon-wrapper{
+    width: 25px;
+}
+
+.consultaion-section{
+    background-color: #ECF1FF;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.family-section{
+    background-color: #5F77FF;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.consultaion-section-img-wrapper{
+    width: 250px;
+}
+
+.family-section-img-wrapper{
+    width: 150px;
+    margin: auto;
+}
+
+.prescription-section{
+    background: #F5F6F9;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.prescription-section-img-wrapper{
+    width: 150px;
+    margin: auto;
+}
+
+.assistance-section{
+    background: #ECF1FF;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.assistance-section-img-wrapper{
+    width: 150px;
+    margin: auto;
+}
+
+.stores-image-wrapper{
+    width: 100px;
+}
+
+@media (min-width: 768px) {
+    .extensiveCare-item-container{
+        width: 30%;
+    }
+    .extensiveCare-font {
+        font-size: 20px;
+    }
+    .extensive-preIcon-wrapper{
+        width: 45px;
+    }
+    .consultaion-section-img-wrapper{
+        width: 210px;
+    }
+    .assistance-section-img-wrapper{
+        width: 150px;
+    }
+    
+}
+
+@media (min-width: 992px) { 
+    .family-section{
+        width: 40%;
+    }
+    .family-section,
+    .consultaion-section,
+    .prescription-section,
+    .assistance-section{
+        .secondary-font{
+            font-size: 12px;
+        }
+    }
+    .consultaion-section-content{
+        width: 60%;
+    }
+    .consultaion-section-img-wrapper{
+        width: 400px;
+    }
+    .health-care-image-wrapper{
+        width: 500px;
+    }
+    .health-care-content-wrapper{
+        width: 40%;
+    }
+    .stores-image-wrapper {
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .family-section,
+    .consultaion-section,
+    .prescription-section,
+    .assistance-section{
+        .secondary-font{
+            font-size: 17px;
+        }
+    }
+    .family-section-img-wrapper{
+        width: 250px;
+    }
+    .prescription-section-img-wrapper{
+        width: 300px;
+    }
+    .assistance-section-img-wrapper{
+        width: 300px;
+        margin: 0;
+    }
+    .assistance-section{
+        padding: 12px 0px 0px 12px;
+    }
+    .health-care-image-wrapper{
+        width: 530px;
+    }
+    .stores-image-wrapper {
+        width: 140px;
+    }
+}

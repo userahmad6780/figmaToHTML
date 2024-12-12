@@ -1,0 +1,83 @@
+.inputStyle{
+    background-color: #F5F6F9;
+    border-bottom: 2px solid #5f77ff55 !important;
+    border: 0;
+}
+
+.emai-section{
+    background-color: #5F77FF;
+    padding: 10px;
+    border-radius: 22px;
+}
+
+.email-section-img-wrapper{
+    width: 150px;
+}
+
+.call-section-img-wrapper{
+    width: 100px;
+}
+
+.call-section{
+    background-color: #D3DAFF;
+    padding: 10px;
+    border-radius: 22px;
+}
+
+.location-section{
+    background-color: #ecdeff5c;
+    padding: 10px;
+    border-radius: 22px;
+}
+
+.social-preIcon-wrapper{
+    margin: auto;
+    width: 50px;
+}
+
+.social-font{
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    .contact-pre-section{
+        width: 40%;
+    }
+    .contact-post-section{
+        width: 55%;
+    }
+    .emai-section,
+    .call-section,
+    .location-section{
+        padding: 20px;
+    }
+
+    .social-preIcon-wrapper{
+        width: 70px;
+    }
+    
+    .social-font{
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .contact-pre-section{
+        width: 40%;
+    }
+    .contact-post-section{
+        width: 58%;
+    }
+    .social-section{
+        width: 50% !important;
+    }
+    .social-font{
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact-page-consult-section .main-section-img-wrapper {
+        width: 500px;
+    }
+}

@@ -1,0 +1,63 @@
+/* media queries */
+.healthCareItemSection{
+    width: 40%;
+}
+
+.health-care-item-font{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.about-milestone{
+    background-color: #F5F6F9; 
+    padding: 30px;
+}
+
+.stores-image-wrapper{
+    width: 100px;
+}
+
+@media (min-width: 768px) {
+    .healthCareItemSection{
+        width: 30%;
+    }
+    .health-care-item-font {
+        font-size: 20px;
+    }
+    .detail-subheading-wrapper{
+        width: 60%;
+    }
+    .exceptional-img-wrapper{
+        width: 700px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .about-milestone{
+        padding: 50px;
+    }
+    .health-care-image-wrapper{
+        width: 500px;
+    }
+    .health-care-content-wrapper{
+        width: 40%;
+    }
+    .stores-image-wrapper {
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .healthCareItemSection{
+        width: 26%;
+    }
+    .detail-subheading-wrapper{
+        width: 50%;
+    }
+    .health-care-image-wrapper{
+        width: 530px;
+    }
+    .stores-image-wrapper {
+        width: 140px;
+    }
+}
